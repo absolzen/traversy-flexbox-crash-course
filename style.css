@@ -71,3 +71,19 @@ ul {
 .nav > * {
   margin-left: 20px;
 }
+
+.header {
+  background: #0a51cc;
+  color: #fff;
+  min-height: 400px;
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.header img {
+  max-width: 400px;
+}

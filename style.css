@@ -49,9 +49,12 @@ ul {
 .navbar a {
   color: #fff;
   text-decoration: none;
-  margin-left: 1rem;
   font-size: 18px;
   font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #a1c3ff;
 }
 
 .navbar > .container {
@@ -63,4 +66,8 @@ ul {
 
 .nav {
   display: flex;
+}
+
+.nav > * {
+  margin-left: 20px;
 }

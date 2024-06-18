@@ -78,6 +78,7 @@ ul {
   min-height: 400px;
 }
 
+
 .header h1 {
   font-size: 3rem;
   font-weight: bold;
@@ -86,4 +87,16 @@ ul {
 
 .header img {
   max-width: 400px;
+
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.boxes .container {
+  display: flex;
+  justify-content: space-between;
 }
